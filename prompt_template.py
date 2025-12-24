@@ -1,4 +1,4 @@
-from langchain.prompts import ChatPromptTemplate
+from langchain_core.prompts import ChatPromptTemplate
 
 # 定义系统提示词：赋予AI角色，并给出具体要求（包含emoji、分段、标签）
 system_template_text = """
@@ -18,4 +18,5 @@ human_template_text = "{theme}"
 prompt = ChatPromptTemplate.from_messages([
     ("system", system_template_text),
     ("human", human_template_text)
+
 ])
