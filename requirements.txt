@@ -1,4 +1,11 @@
 streamlit
 langchain
+langchain-core
 langchain-openai
+langchain-community
 openai
+tiktoken
+faiss-cpu
+pypdf
+docx2txt
+dashscope
